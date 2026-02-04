@@ -6,7 +6,7 @@ use smithy.api#Document
 
 union CriterionFilter {
     byId: Document
-    byTypeAndExchangeIdAndBaseIdAndQuoteId: FilterByTypeAndExchangeIdAndBaseIdAndQuoteId
+    byTypeAndExchangeIdAndBaseIdAndQuoteId: CriterionFilterByTypeAndExchangeIdAndBaseIdAndQuoteId
 }
 
 structure Criterion {
@@ -14,7 +14,7 @@ structure Criterion {
 }
 
 structure CriterionFilterByTypeAndExchangeIdAndBaseIdAndQuoteId {
-    type: FilterByType
+    type: CriteriaFilterByType
     exchangeId: Document
     baseId: Document
     quoteId: Document
