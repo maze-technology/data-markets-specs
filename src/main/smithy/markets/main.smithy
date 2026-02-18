@@ -12,7 +12,7 @@ use tech.maze.dtos.markets.requests#SyncMarketsResponse
 service MarketsGRPC {
     version: "1.0"
     operations: [
-        FindOne,
+        FindOne
         FindByDataProviders
     ]
 }
