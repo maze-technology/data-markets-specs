@@ -6,8 +6,8 @@ use tech.maze.dtos.markets.requests#FindByDataProvidersRequest
 use tech.maze.dtos.markets.requests#FindByDataProvidersResponse
 use tech.maze.dtos.markets.requests#FindOneRequest
 use tech.maze.dtos.markets.requests#FindOneResponse
-use tech.maze.dtos.markets.requests#SyncMarketsRequest
-use tech.maze.dtos.markets.requests#SyncMarketsResponse
+use tech.maze.dtos.markets.payloads#SyncMarketsRequest
+use tech.maze.dtos.markets.payloads#SyncMarketsResponse
 
 service MarketsGRPC {
     version: "1.0"
