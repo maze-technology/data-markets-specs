@@ -2,7 +2,6 @@ $version: "2"
 
 namespace tech.maze.dtos.markets.payloads
 
-use alloy.proto#protoEnabled
 use smithy.api#Document
 use tech.maze.events#event
 

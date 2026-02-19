@@ -3,7 +3,6 @@ $version: "2"
 namespace tech.maze.dtos.markets.search
 
 use alloy.proto#protoEnabled
-
 use smithy.api#Document
 
 union CriterionFilter {
