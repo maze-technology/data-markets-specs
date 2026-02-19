@@ -19,14 +19,12 @@ service MarketsGRPC {
 }
 
 @readonly
-@protoEnabled
 operation FindOne {
     input: FindOneRequest
     output: FindOneResponse
 }
 
 @readonly
-@protoEnabled
 operation FindByDataProviders {
     input: FindByDataProvidersRequest
     output: FindByDataProvidersResponse

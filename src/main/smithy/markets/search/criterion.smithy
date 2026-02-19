@@ -6,7 +6,6 @@ use alloy.proto#protoEnabled
 
 use smithy.api#Document
 
-@protoEnabled
 union CriterionFilter {
     byId: Document
     byTypeAndExchangeIdAndBaseIdAndQuoteId: CriterionFilterByTypeAndExchangeIdAndBaseIdAndQuoteId

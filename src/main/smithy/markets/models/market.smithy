@@ -8,7 +8,6 @@ use smithy.api#Document
 use smithy.api#Timestamp
 use tech.maze.dtos.markets.enums#Type
 
-@protoEnabled
 list MarketDataProvidersMetaDatasList {
     member: DataProviderMetaDatas
 }

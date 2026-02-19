@@ -7,7 +7,6 @@ use alloy.proto#protoEnabled
 use smithy.api#Document
 use tech.maze.dtos.markets.enums#Type
 
-@protoEnabled
 union CriteriaFilterByTypeFilter {
     id: Document
     enum: Type

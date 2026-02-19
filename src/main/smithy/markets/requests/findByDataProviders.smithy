@@ -7,12 +7,10 @@ use alloy.proto#protoEnabled
 use smithy.api#Document
 use tech.maze.dtos.markets.models#Market
 
-@protoEnabled
 list FindByDataProvidersRequestDataProvidersList {
     member: Document
 }
 
-@protoEnabled
 list FindByDataProvidersResponseMarketsList {
     member: Market
 }
