@@ -5,8 +5,6 @@ namespace tech.maze.dtos.markets.requests
 use tech.maze.dtos.markets.models#Market
 use tech.maze.dtos.markets.search#Criterion
 
-structure FindOne {}
-
 structure FindOneRequest {
     criterion: Criterion
 }

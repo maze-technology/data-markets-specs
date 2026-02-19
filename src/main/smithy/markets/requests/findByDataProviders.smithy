@@ -13,8 +13,6 @@ list FindByDataProvidersResponseMarketsList {
     member: Market
 }
 
-structure FindByDataProviders {}
-
 structure FindByDataProvidersRequest {
     dataProviders: FindByDataProvidersRequestDataProvidersList
 }
