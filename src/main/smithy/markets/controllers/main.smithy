@@ -1,6 +1,6 @@
 $version: "2"
 
-namespace tech.maze.dtos.markets.controllers.main.proto
+namespace tech.maze.dtos.markets.controllers
 
 use alloy.proto#protoEnabled
 use tech.maze.dtos.markets.requests#FindByDataProvidersRequest
