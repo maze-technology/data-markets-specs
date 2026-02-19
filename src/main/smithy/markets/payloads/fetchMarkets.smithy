@@ -3,6 +3,7 @@ $version: "2"
 namespace tech.maze.dtos.markets.payloads
 
 use smithy.api#Document
+use tech.maze.dtos.markets.models#MarketMetaDatas
 use tech.maze.events#event
 
 @event(type: "tech.maze.markets.fetch.request", topic: "markets.fetch.request", version: "1.0.0")
@@ -14,7 +15,7 @@ structure FetchMarketsResponse {
     sourceRequest: FetchMarketsRequest
 
     @required
-    key: String
+    marketMetaDatas: MarketMetaDatas
 
     @required
     isLast: Boolean
