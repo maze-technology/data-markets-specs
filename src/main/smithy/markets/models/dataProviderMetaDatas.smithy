@@ -5,19 +5,19 @@ namespace tech.maze.dtos.markets.models
 use alloy.proto#protoEnabled
 use smithy.api#Document
 
-map DataProviderMetaDatasExtraDatasMap {
+map MarketMetaDatasExtraDatasMap {
     key: String
     value: String
 }
 
-map DataProviderMetaDatasToolBoxMap {
+map MarketMetaDatasToolBoxMap {
     key: String
     value: String
 }
 
 @protoEnabled
-structure DataProviderMetaDatas {
+structure MarketMetaDatas {
     dataProviderId: Document
-    extraDatas: DataProviderMetaDatasExtraDatasMap
-    toolBox: DataProviderMetaDatasToolBoxMap
+    extraDatas: MarketMetaDatasExtraDatasMap
+    toolBox: MarketMetaDatasToolBoxMap
 }
