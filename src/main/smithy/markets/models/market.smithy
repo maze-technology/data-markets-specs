@@ -13,17 +13,33 @@ list MarketDataProvidersMetaDatasList {
 
 @protoEnabled
 structure Market {
+    @required
     id: Document
+
+    @required
     type: Type
+
+    @required
     exchangeId: Document
+
+    @required
     baseId: Document
+
+    @required
     quoteId: Document
+
+    @required
     dataProvidersMetaDatas: MarketDataProvidersMetaDatasList
+
+    @required
     createdAt: Timestamp
 }
 
 @protoEnabled
 structure MarketType {
+    @required
     id: Document
+
+    @required
     enum: Type
 }

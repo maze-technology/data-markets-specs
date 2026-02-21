@@ -16,5 +16,6 @@ structure Criteria {}
 
 @protoEnabled
 structure CriteriaFilterByType {
+    @required
     filter: CriteriaFilterByTypeFilter
 }

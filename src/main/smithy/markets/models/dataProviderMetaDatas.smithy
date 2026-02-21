@@ -17,7 +17,12 @@ map MarketMetaDatasToolBoxMap {
 
 @protoEnabled
 structure MarketMetaDatas {
+    @required
     dataProviderId: Document
+
+    @required
     extraDatas: MarketMetaDatasExtraDatasMap
+
+    @required
     toolBox: MarketMetaDatasToolBoxMap
 }

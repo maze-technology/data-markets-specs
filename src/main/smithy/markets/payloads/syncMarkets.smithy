@@ -9,5 +9,6 @@ structure SyncMarketsRequest {}
 
 @event(type: "tech.maze.markets.sync.response", version: "1.0.0")
 structure SyncMarketsResponse {
+    @required
     skipped: Long
 }
