@@ -18,12 +18,18 @@ list FindByDataProvidersResponseMarketsList {
 
 @protoEnabled
 structure FindByDataProvidersRequest {
+    @required
     dataProviders: FindByDataProvidersRequestDataProvidersList
+
+    @required
     pagination: Pagination
 }
 
 @protoEnabled
 structure FindByDataProvidersResponse {
+    @required
     markets: FindByDataProvidersResponseMarketsList
+
+    @required
     paginationInfos: PaginationInfos
 }

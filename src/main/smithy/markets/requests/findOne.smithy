@@ -8,10 +8,12 @@ use tech.maze.dtos.markets.search#Criterion
 
 @protoEnabled
 structure FindOneRequest {
+    @required
     criterion: Criterion
 }
 
 @protoEnabled
 structure FindOneResponse {
+    @required
     market: Market
 }
